@@ -4,7 +4,7 @@ extending the x-editable default options functionality
 * Adding defaults to specific input type
 * Flexible adding of defaults through filter
 
-## How to use
+## Getting started
 
 1.) Include the script into your page.
 
@@ -14,4 +14,6 @@ extending the x-editable default options functionality
 ```html
 <script src="x-editable-defaults.jquery.js"></script>
 ```
+
+## How to use
 
