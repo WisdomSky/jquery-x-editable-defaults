@@ -17,3 +17,13 @@ extending the x-editable default options functionality
 
 ## How to use
 
+You can now start adding default options using the `$.fn.editable.defaults`.
+
+### Global
+```javascript
+$.fn.editable.defaults.showbuttons = false;
+```
+### Input type specific
+```javascript
+$.fn.editable.defaults.select2.showbuttons = false;
+```
