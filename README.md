@@ -37,4 +37,4 @@ $.fn.editable.defaults.select2.addFilter(function(options){
   return options;
 });
 ```
-**NOTE: When using the addFilter() method, you should return a new options object or else the filter will be ignored.**
+**NOTE: When using the addFilter() method, you should return a new value for the options object or else the filter will be ignored.**
