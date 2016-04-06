@@ -1,3 +1,11 @@
+/**
+ *  X-editable-defaults
+ *  by: WisdomSky
+ *  https://github.com/WisdomSky/jquery-x-editable-defaults/
+ *  The MIT License (MIT)
+ *  
+ * /
+
 (function ($) {
 
     var old_create_input = $.fn.editableutils.createInput;
