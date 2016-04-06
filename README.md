@@ -7,13 +7,10 @@ extending the x-editable default options functionality
 ## Getting started
 
 1.) Include the script into your page.
-
-**NOTE: be sure to include it AFTER the x-editable library.**
-
-
 ```html
 <script src="x-editable-defaults.jquery.js"></script>
 ```
+**NOTE: be sure to include it AFTER the x-editable library.**
 
 ## How to use
 
@@ -40,3 +37,4 @@ $.fn.editable.defaults.select2.addFilter(function(options){
   return options;
 });
 ```
+**NOTE: When using the addFilter() method, you should return a new options object or else the filter will be ignored.**
