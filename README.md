@@ -27,3 +27,16 @@ $.fn.editable.defaults.showbuttons = false;
 ```javascript
 $.fn.editable.defaults.select2.showbuttons = false;
 ```
+
+### Input type specific using the addFilter() method
+
+```javascript
+$.fn.editable.defaults.select2.addFilter(function(options){
+
+  if (options.select2.multiple === true) {
+    options.showbuttons = false;
+  }
+
+  return options;
+});
+```
