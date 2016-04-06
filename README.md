@@ -8,7 +8,7 @@ extending the x-editable default options functionality
 
 1.) Include the script into your page.
 ```html
-<script src="x-editable-defaults.jquery.js"></script>
+<script src="x-editable-defaults.jquery.min.js"></script>
 ```
 **NOTE: be sure to include it AFTER the x-editable library.**
 
