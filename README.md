@@ -10,4 +10,8 @@ extending the x-editable default options functionality
 
 **NOTE: be sure to include it AFTER the x-editable library.**
 
-`<script src="x-editable-defaults.jquery.js"></script>`
+
+```html
+<script src="x-editable-defaults.jquery.js"></script>
+```
+
