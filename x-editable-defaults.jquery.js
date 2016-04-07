@@ -4,7 +4,7 @@
  *  https://github.com/WisdomSky/jquery-x-editable-defaults/
  *  The MIT License (MIT)
  *  
- * /
+ **/
 
 (function ($) {
 
